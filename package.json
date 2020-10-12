@@ -1,0 +1,17 @@
+{
+  "name": "sistemagerenciadordenotas",
+  "version": "1.0.0",
+  "description": "sistema de gerenciamento de notas é um site onde um professor gerencia as notas de seus alunos. Esse projeto é um requisito para a aprovação na matéria Desenvolvimento de aplicações distribuidas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "tsc -w"
+
+  },
+  "author": "jonas góes",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.0.3"
+  }
+}
