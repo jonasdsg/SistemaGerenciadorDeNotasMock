@@ -3,7 +3,7 @@
         "target": "ES6",
         "noImplicitAny": true,
         "strictNullChecks": true,
-        "outDir": "./app/js/"        
+        "outDir": "./out/app"        
     },
-    "include": ["./app/ts/**/*"]
+    "include": ["./src/app/**/*"]
 }
