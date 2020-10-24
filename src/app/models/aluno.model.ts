@@ -1,13 +1,21 @@
 import { Avaliacao } from './avaliacao-model/avaliacao.interface';
 import { ImportsNotUsedAsValues } from '../../../node_modules/typescript/lib/typescript';
 import { AvaliacaoModel } from './avaliacao-model/modelo-avaliacao.interface';
-class AlunoModel implements Avaliacao{
+export class AlunoModel implements Avaliacao{
     constructor(
         private alunoNome:string,
         private alunoMatricula:string,
         private notas:AvaliacaoModel
     ){}
 
+    get nome():string{
+        return this.alunoNome;
+    }
+
+    get matricula():string{
+        return this.matricula;
+    }
+    
     media(): number {
         let av1 = this.notaAv1;
         let av2 = this.notaAv2;
